@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="post-item.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post item</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./home-seller.html">
+                <div class="whole-logo">
+                    <img src="./images/logo.png" alt="website-logo" class="logo">
+                    <span class="logo-text">Lion Shop</span>
+                </div>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+            <h1>Post item</h1>
+
+
+            <div class="field">
+                <label for="name">Product name:</label>
+                <input type="text" name="login" id="name">
+            </div>
+
+            <div class="field">
+                <label for="quantity">Quantity:</label>
+                <input min="0" type="number" name="quantity" id="quantity">
+            </div>
+
+            <div class="field">
+                <label for="price">Price per item:</label>
+                <input type="number" min="0" name="price" id="price">
+            </div>
+
+            <div class="field">
+                <label for="category">Category:</label>
+                <select name="category" id="category">
+                    <option value="">select category</option>
+                    <option value="books">books</option>
+                    <option value="films">films</option>
+                    <option value="toys">toys</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="description">Description</label>
+                <textarea name="description" id="description:" cols="30" rows="1"></textarea>
+            </div>
+
+            <button class="button" type="submit">Post</button>
+        </form>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 5px 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.whole-logo {
+    line-height: normal;
+    padding: auto 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+.logo-text {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    border-width: 0px;
+    font-size: 15px;
+    background-color: rgb(240, 172, 4);
+    padding: 5px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(251, 114, 17);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+}
+
+#reg-form {
+    height: 70vh;
+}
+
+.field {
+    margin-top: 10px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
